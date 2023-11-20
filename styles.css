@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #444; /* Fondo de la barra de navegación */
+    padding: 0.5em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Efecto de transición en el color al pasar el ratón */
+}
+
+nav a:hover {
+    color: #ffd700; /* Cambia el color al pasar el ratón */
+}
+
+#destacado {
+    margin: 20px;
+    text-align: center;
+}
+
+#destacado img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+#miradores, #restaurantes, #discotecas {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+#miradores h2, #restaurantes h2, #discotecas h2 {
+    margin-bottom: 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-container img {
+    width: 30%;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+}
